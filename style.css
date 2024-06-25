@@ -74,11 +74,7 @@ button{
     cursor: pointer;
 }
 input{
-    background-color: transparent;
-    /* opacity: .3; */
-    /* width: 500px;
-    height: 30px;
-    border-radius: 30px;*/ 
+    background-color: transparent; 
      border: none;
      padding-left: 20px; 
      color: white;
@@ -137,4 +133,40 @@ input{
     height: 17px;
     color: black;
     cursor: pointer;
+}
+
+
+/* Responsive ----------------------------------- */
+@media (max-width:762px) {
+    .input-box{
+        background-color: #18394D;
+        width: 70%;
+        
+    }
+
+    button{
+        width: 20%;
+    }
+    input{
+        width: 80%;
+    }
+}
+@media (max-width:560px) {
+    h2{
+        color: white;
+        font-size: 50px;
+        font-weight: 500;
+    }
+    .input-box{
+        background-color: #18394D;
+        width: 70%;
+        
+    }
+
+    button{
+        width: 30%;
+    }
+    input{
+        width: 70%;
+    }
 }
